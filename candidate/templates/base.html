@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <title>{% block title %}My Site{% endblock %}</title>
+        {% load static %}
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'candidate/css/styles.css' %}">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .biography {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .name {
+                font-weight: bold;
+            }
+            .date-of-birth {
+                color: #888;
+            }
+            .party {
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+    <title>My Site</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'candidate:home' %}">Home</a></li>
+            <li><a href="{% url 'candidate:register' %}">Register</a></li>
+            <li><a href="{% url 'candidate:biography' %}">Biography</a></li>
+            <li><a href="{% url 'candidate:endorse' %}">Endorse</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="{% url 'candidate:logout' %}">Logout</a></li>
+                <p>Welcome, {{ user.username }}!</p>
+            {% else %}
+                <li><a href="{% url 'candidate:login' %}">Login</a></li>
+                
+            {% endif %}
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

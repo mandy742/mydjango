@@ -1,0 +1,21 @@
+<!--Biography template-->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="my-4">Biographies</h1>
+        {% for biography in biographies %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{ biography.name }}</h5>
+                    <p class="card-text"><strong>Date of Birth:</strong> {{ biography.date_of_birth }}</p>
+                    <p class="card-text"><strong>Place of Birth:</strong> {{ biography.place_of_birth }}</p>
+                    <p class="card-text"><strong>Education:</strong> {{ biography.education }}</p>
+                    <p class="card-text"><strong>Events:</strong> {{ biography.events }}</p>
+                    <p class="card-text"><strong>Achievements:</strong> {{ biography.achievements }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

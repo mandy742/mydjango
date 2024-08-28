@@ -1,0 +1,18 @@
+<!--endorsements html-->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="my-4">Endorsements</h1>
+        {% for endorse in endorsements %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">{{ endorse.endorser_name }}</h5>
+                    <p class="card-text"><strong>Date:</strong> {{ endorse.endorser_date }}</p>
+                    <p class="card-text"><strong>Message:</strong> {{ endorse.endorser_text }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
