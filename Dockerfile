@@ -11,4 +11,4 @@ COPY requirements.txt /app/
 COPY . /app/
 
 # Define the command to run when the container starts
-CMD ["python", "candidate"]
+CMD ["python", "candidate.py"]
