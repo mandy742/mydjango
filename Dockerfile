@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app
 
 # Run the Django development server
-CMD ["python", "candidate.py", "runserver",]
+CMD ["python", "candidate.py",]
