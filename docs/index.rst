@@ -15,4 +15,6 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+   modules
+
    # Add the names of your reStructuredText files here, separated by new lines.
