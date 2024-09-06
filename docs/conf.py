@@ -29,7 +29,12 @@ release = '01/09/2024'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 # List of Sphinx extensions to use
-extensions = []
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.napoleon"
+]
+
 # Paths that contain templates
 templates_path = ['_templates']
 # Patterns to exclude when looking for source files
