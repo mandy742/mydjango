@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\mchip\Dropbox\MM24040014792\2 - Introduction to Software Engineering\L2T23 - Capstone Project - Django\venv
+set VIRTUAL_ENV=C:\Users\mchip\Dropbox\MM24040014792\3 - Advanced Software Engineering\L3T10 - Capstone Project - Consolidation\L2T23 - Capstone Project - Django\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
