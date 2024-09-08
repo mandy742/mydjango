@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
 # Django #
 *.log
 *.pot
@@ -135,6 +138,7 @@ GitHub.sublime-settings
 !.vscode/tasks.json 
 !.vscode/launch.json 
 !.vscode/extensions.json 
+<<<<<<< HEAD
 .history
 =======
 # Byte-compiled / optimized / DLL files
@@ -275,3 +279,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 >>>>>>> docs
+=======
+.history
+>>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
