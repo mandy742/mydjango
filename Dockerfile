@@ -1,22 +1,11 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
 # Use an official Python runtime as a parent image
 FROM python:3.10
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements file into the container
-COPY requirements.txt /app/
-
 # Copy the Django project into the container
 COPY . /app/
 
 # Define the command to run when the container starts
-<<<<<<< HEAD
-CMD python candidate.py
-=======
-CMD ["python", "candidate"]
->>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
+CMD ["python", "candidate.py"]
