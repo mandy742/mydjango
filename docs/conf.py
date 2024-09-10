@@ -5,7 +5,7 @@ import django
 # Add the project directory to the sys.path
 sys.path.insert(0, os.path.abspath('..'))
 # Set the Django settings module environment variable
-os.environ['DJANGO_SETTINGS_MODULE'] = 'mandy consolidation.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'candidate.settings'
 # Setup Django
 django.setup()
 
