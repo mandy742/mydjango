@@ -11,7 +11,7 @@ Add your content using ``reStructuredText`` syntax. See the
 documentation for details.
 
 
-.. toctree::
+.. toctree::    
    :maxdepth: 2
    :caption: Contents:
 
