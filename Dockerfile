@@ -1,11 +1,11 @@
-# Use the official Python image from the Docker Hub
+# Use an official Python runtime as a parent image
 FROM python:3.10
 
-# Set work directory
+# Set the working directory in the container
 WORKDIR /app
 
-# Copy project
-COPY . /app
+# Copy the Django project into the container
+COPY . /app/
 
-# Run the Django development server
-CMD ["python", "candidate.py",]
+# Define the command to run when the container starts
+CMD ["python", "manage.py", "runserver"]
