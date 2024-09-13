@@ -10,5 +10,5 @@ Welcome to Your Project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   module
+   modules
    
