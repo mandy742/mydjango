@@ -10,12 +10,5 @@ Welcome to Your Project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   module1
-   module2
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   module
+   
