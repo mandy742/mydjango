@@ -135,3 +135,8 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+echo "__pycache__/" >> .gitignore
+echo "docs/venv/" >> .gitignore
+echo "myenv/" >> .gitignore
+echo "venv/" >> .gitignore
