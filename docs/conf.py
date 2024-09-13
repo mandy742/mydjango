@@ -17,7 +17,7 @@ django.setup()
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 # Name of the project
-project = 'mandy consolidation'
+project = 'hyperion'
 # The copyright information
 copyright = '2024, mandy'
 # The author of the project
