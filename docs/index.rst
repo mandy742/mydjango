@@ -16,5 +16,4 @@ documentation for details.
    :caption: Contents:
 
    modules
-
-   # Add the names of your reStructuredText files here, separated by new lines.
+   candidate
