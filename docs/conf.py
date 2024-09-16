@@ -5,7 +5,10 @@ import django
 # Add the project directory to the sys.path
 sys.path.insert(0, os.path.abspath('..'))
 # Set the Django settings module environment variable
+<<<<<<< HEAD
 
+=======
+>>>>>>> container
 os.environ['DJANGO_SETTINGS_MODULE'] = 'hyperion.settings'
 # Setup Django
 django.setup()
@@ -18,7 +21,11 @@ django.setup()
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 # Name of the project
+<<<<<<< HEAD
 project = 'mandy consolidation'
+=======
+project = 'hyperion'
+>>>>>>> container
 # The copyright information
 copyright = '2024, mandy'
 # The author of the project

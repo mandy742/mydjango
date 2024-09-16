@@ -6,4 +6,8 @@ L2T23 - Capstone Project - Django
 
    candidate
    hyperion
+<<<<<<< HEAD
    manage
+=======
+   manage
+>>>>>>> container

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
+=======
+>>>>>>> container
 # Django #
 *.log
 *.pot
@@ -104,7 +107,7 @@ celerybeat-schedule.*
 .env 
 .venv 
 env/ 
-venv/ 
+#venv/ 
 ENV/ 
 env.bak/ 
 venv.bak/ 
@@ -138,6 +141,8 @@ GitHub.sublime-settings
 !.vscode/tasks.json 
 !.vscode/launch.json 
 !.vscode/extensions.json 
+<<<<<<< HEAD
+<<<<<<<< HEAD:.gitignore
 <<<<<<< HEAD
 .history
 =======
@@ -291,3 +296,16 @@ venv/
 # Ignore Sphinx build directory
 _build/
 >>>>>>> docs
+========
+=======
+>>>>>>> container
+.history
+
+echo "__pycache__/" >> .gitignore
+echo "docs/venv/" >> .gitignore
+echo "myenv/" >> .gitignore
+echo "venv/" >> .gitignore
+<<<<<<< HEAD
+>>>>>>>> container:hyperion/.gitignore
+=======
+>>>>>>> container
