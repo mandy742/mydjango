@@ -6,7 +6,10 @@ import django
 sys.path.insert(0, os.path.abspath('..'))
 # Set the Django settings module environment variable
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> container
 =======
 >>>>>>> container
 os.environ['DJANGO_SETTINGS_MODULE'] = 'hyperion.settings'
@@ -22,7 +25,11 @@ django.setup()
 
 # Name of the project
 <<<<<<< HEAD
+<<<<<<< HEAD
 project = 'mandy consolidation'
+=======
+project = 'hyperion'
+>>>>>>> container
 =======
 project = 'hyperion'
 >>>>>>> container
