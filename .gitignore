@@ -278,7 +278,16 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+<<<<<<< HEAD
 >>>>>>> docs
 =======
 .history
 >>>>>>> 726f8a07cbdaa27473a24796a61b515b02881acb
+=======
+
+# Ignore virtual environment
+venv/
+
+# Ignore Sphinx build directory
+_build/
+>>>>>>> docs
