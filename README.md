@@ -43,7 +43,7 @@ python manage.py runserver
 
 
 ## Running with Docker
-Build the Docker image (assuming you have a Dockerfile in your project root): docker build -t my-django-app . Run the Docker container: docker run -d -p 8000:8000 voting-app:latest
+Build the Docker image (assuming you have a Dockerfile in your project root): docker build -t my-django-app . Run the Docker container: docker run -d -p 8000:8000 my-django-app:latest
 
 Access your application in your web browser at http://localhost:8000
 
